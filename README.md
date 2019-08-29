@@ -15,3 +15,7 @@ Pro-tips:
 
 * Change `localStorage` to `sessionStorage` and the bar will reappear with each new session, even after being dismissed.
 * Add the code to a template file to load this bar on every page and for easy editing.
+
+## Who made this?
+
+Greg Kogan (https://www.gkogan.co) with help from [this tutorial about content gating](https://davemart.in/content-gating-example-code/).
