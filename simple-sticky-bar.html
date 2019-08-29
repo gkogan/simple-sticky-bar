@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="simple-sticky-bar.js"></script>
+  <style>
+  	.bar {
+      position: fixed;
+      bottom: 0;
+      display: block;
+      z-index: 99999;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 1.5em 2.5em;
+      background-color: #fff;
+      color: #000;
+      font-size: 1em;
+      line-height: 1.5;
+      text-align: center;
+      transition: bottom 1s;
+      p,
+      a {
+        color: inherit;
+        margin: 0;
+      }
+
+      a[href*="http"] {
+          text-decoration: underline;
+      }
+
+      .dismiss {
+          position: absolute;
+          top: 1em;
+          right: 0.75em;
+          font-size: 1.5em;
+          line-height: 1;
+          color: inherit;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- The sticky bar -->
+  <div id="bar" class="bar">
+    <p>Don't miss this special event. <a href="https://www.google.com">Register now!</a></p>
+    <a href="#" class="dismiss">&times;</a>
+  </div>
+
+  <script>
+    stickyBar();
+  </script>
+</body>
+</html>
