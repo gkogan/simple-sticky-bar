@@ -18,4 +18,4 @@ Pro-tips:
 
 ## Who made this?
 
-Greg Kogan (https://www.gkogan.co) with help from [this tutorial about content gating](https://davemart.in/content-gating-example-code/).
+[Greg Kogan](https://www.gkogan.co) with help from [this tutorial about content gating](https://davemart.in/content-gating-example-code/).
